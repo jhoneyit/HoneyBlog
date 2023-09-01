@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	
 	@GetMapping
-	@RequestMapping("/main")
+	@RequestMapping("main")
 	public String main() throws Exception {
 		
-		return "main/hello";
+		return "main/main";
 	}
 }
