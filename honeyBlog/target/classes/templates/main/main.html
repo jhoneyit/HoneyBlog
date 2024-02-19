@@ -1,9 +1,10 @@
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 	<head>
 		<meta charset="UTF-8">
 		<title>Title</title>
 		<link th:href="@{/css/main.css}" rel="stylesheet" />
 	</head>
+	<th:block th:replace="~{common/header :: HeaderFragment}"></th:block>
 	<body>
 		<h2>hello</h2>
 	</body>
